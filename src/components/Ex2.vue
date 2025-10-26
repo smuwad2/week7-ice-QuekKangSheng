@@ -9,7 +9,6 @@ export default {
     methods: {
         addItem() {
             this.items.push(this.newItem)
-            this.newItem = "" // optional: clears the input after adding
         }
     }
 }
